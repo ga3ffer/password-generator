@@ -1,0 +1,17 @@
+-	Pw are still the most commonly used mechanism for user authentication in most computer systems.  
+-	Alternative methods such as challenge-response, public-key, and biometrics are not very popular at the moment, and are often times combined with passwords.  
+- 	user is often the weakest link because they choose easily guessed pw
+-	security
+		guarantess the password contains a specific amount of entropy
+		entropy measures the unpredictability of a choice
+		the ps word is choosen from a very large set of passwords
+			entropy: characterset^pwlength
+				character set:83 pwlength: 4 = 83^4 = 47458321 = 2^26
+				bits of entropy log2(x) or ln(x)/ln(2)
+	noramlly users create passwords with common words combines with a number
+	confidentiality
+		many people use the same pw for multiple accounts, if a weak website is compromised the attacker can gain access to other accounts of the user.
+		increase the security by forcing the use of unique pw for diff accounts, still the risk of the use adopting the same pw for other accounts which defeats the purpose
+	usability concerns
+		user created pw are easier to remember
+-	high security systems use random generated passwords
